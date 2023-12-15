@@ -15,10 +15,15 @@ struct SpeciesListView: View {
         NavigationStack {
             ZStack {
                 List(speciesVM.speciesArray) { species in
-                    NavigationLink {
-                        DetailView(species: species)
-                    } label: {
-                        Text(species.name)
+                    LazyVStack {
+                        NavigationLink {
+                            DetailView(species: species)
+                        } label: {
+                            Text(species.name)
+                        }
+                    }
+                    .task {
+                        await speciesVM.loadNextIfNeeded(species: species)                        
                     }
                     
                 }
