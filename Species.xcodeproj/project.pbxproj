@@ -13,6 +13,7 @@
 		61079C1F2B2C841E004F10D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61079C1E2B2C841E004F10D0 /* Preview Assets.xcassets */; };
 		61079C272B2C8933004F10D0 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61079C262B2C8933004F10D0 /* Species.swift */; };
 		61079C292B2C8B24004F10D0 /* SpeciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61079C282B2C8B24004F10D0 /* SpeciesViewModel.swift */; };
+		61079C2E2B2C925E004F10D0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61079C2D2B2C925E004F10D0 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		61079C252B2C8697004F10D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		61079C262B2C8933004F10D0 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 		61079C282B2C8B24004F10D0 /* SpeciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewModel.swift; sourceTree = "<group>"; };
+		61079C2D2B2C925E004F10D0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				61079C252B2C8697004F10D0 /* Info.plist */,
+				61079C2D2B2C925E004F10D0 /* DetailView.swift */,
 				61079C172B2C841D004F10D0 /* SpeciesApp.swift */,
 				61079C192B2C841D004F10D0 /* SpeciesListView.swift */,
 				61079C262B2C8933004F10D0 /* Species.swift */,
@@ -148,6 +151,7 @@
 				61079C1A2B2C841D004F10D0 /* SpeciesListView.swift in Sources */,
 				61079C292B2C8B24004F10D0 /* SpeciesViewModel.swift in Sources */,
 				61079C272B2C8933004F10D0 /* Species.swift in Sources */,
+				61079C2E2B2C925E004F10D0 /* DetailView.swift in Sources */,
 				61079C182B2C841D004F10D0 /* SpeciesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
