@@ -52,4 +52,10 @@ class SpeciesViewModel: ObservableObject {
             await getData()
         }
     }
+    
+    func loadAll() async {
+        guard urlString != "" else { return } // We're done if  urlString == "". No more pages
+        await getData()
+        await loadAll()
+    }
 }

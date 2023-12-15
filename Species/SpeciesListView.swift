@@ -23,7 +23,7 @@ struct SpeciesListView: View {
                         }
                     }
                     .task {
-                        await speciesVM.loadNextIfNeeded(species: species)                        
+                        await speciesVM.loadNextIfNeeded(species: species)
                     }
                     
                 }
@@ -39,6 +39,13 @@ struct SpeciesListView: View {
                 }
             }
             .toolbar {
+                ToolbarItem(placement: .bottomBar) {
+                    Button("Load All") {
+                        Task {
+                            await speciesVM.loadAll()
+                        }
+                    }
+                }
                 ToolbarItem(placement: .status) {
                     Text("\(speciesVM.speciesArray.count) Species Returned.")
                 }
