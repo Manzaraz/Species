@@ -13,17 +13,32 @@ struct SpeciesListView: View {
     
     var body: some View {
         NavigationStack {
-            List(speciesVM.speciesArray) { species in
-                NavigationLink {
-                    DetailView(species: species)
-                } label: {
-                    Text(species.name)                    
+            ZStack {
+                List(speciesVM.speciesArray) { species in
+                    NavigationLink {
+                        DetailView(species: species)
+                    } label: {
+                        Text(species.name)
+                    }
+                    
                 }
-
+                .font(.title2)
+                .listStyle(.plain)
+                .navigationTitle("Species")
+                
+                if speciesVM.isLoading {
+                    
+                    ProgressView()
+                        .scaleEffect(4)
+                        .tint(.green)
+                }
             }
-            .font(.title2)
-            .listStyle(.plain)
-            .navigationTitle("Species")
+            .toolbar {
+                ToolbarItem(placement: .status) {
+                    Text("\(speciesVM.speciesArray.count) Species Returned.")
+                }
+            }
+            
         }
         .task {
             await speciesVM.getData()
