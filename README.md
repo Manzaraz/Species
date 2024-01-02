@@ -5,7 +5,7 @@
 
 #### Pasos de Desarrollo
 
-**Paso 1:** Comencé el desarrollo de la aplicación agregando dos imágenes a la carpeta Assets. Una imagen se utiliza como ícono de la aplicación y la otra como launchscreen, que se muestra durante el inicio de la aplicación. Luego, configuré estos elementos en la información del target del proyecto. También agregué otros assets como imágenes.
+**Paso 1:** Comencé el desarrollo de la aplicación agregando dos imágenes a la carpeta Assets. Una imagen se utiliza como ícono de la aplicación y la otra como launchscreen, que se muestra durante el inicio de la aplicación. Luego, configuré estos elementos en el Project Editor, luego elige el Targets> Pestaña Info, para poder configurar de manera fácil el archivo info.plist. También agregué otros assets como imágenes.
 
 **Paso 2:** Seguí el patrón de diseño MVVM, que busca la independencia de la parte visual del proyecto. El primer archivo SwiftUI que creé fue SpeciesListView, que muestra las diferentes especies que aparecen en Star Wars. Para tener una idea del tipo de datos que utilizaría, creé un modelo llamado Species, donde definí un struct con las propiedades que necesitaría de los datos provenientes de SWAPI.
 
