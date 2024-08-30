@@ -1,7 +1,7 @@
 ## SpeciesApp
 
- ![SpeciesApp](https://ibb.co/q54ygsB)
-  ![Image title](https://ibb.co/q54ygsB){ width="300" }
+ <image src="https://ibb.co/q54ygsB" alt="Descripción de la imagen">
+
 
 ### Descripción del Proyecto 
 
