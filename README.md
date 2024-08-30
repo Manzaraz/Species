@@ -1,6 +1,6 @@
 ## SpeciesApp
 
- ![Barcode Scanner App](https://ibb.co/B31CYPt)
+ ![SpeciesApp](https://ibb.co/q54ygsB)
 
 
 ### Descripción del Proyecto 
