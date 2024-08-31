@@ -1,6 +1,6 @@
 ## SpeciesApp
 
- <image src="https://ibb.co/q54ygsB" alt="Descripción de la imagen">
+ <img src="https://i.ibb.co/ySMfky0/Simulator-Screen-Recording-i-Phone-15-Pro-2024-08-30-at-18-33-54.gif" alt="Screenshoot of Barcode Scanner" class="p__img">
 
 
 ### Descripción del Proyecto 
